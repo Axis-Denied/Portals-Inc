@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portals Incorporated</title>
+    <meta name="description" content="we put the ALL in portal!">
+    <meta name="author" content="Adedeji Coker">
+	<!--
+		Contact Sheet for Portals Incorporated
+		
+		Author: Adedeji Coker
+		Supporting Files: submit.js, main.css, contact.css
+	-->
+
+    <link rel="stylesheet" href="Assets/Styles/main.css?v=3.0">
+	<link rel="stylesheet" href="Assets/Styles/contact.css?v=3.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img style="max-width: 423px;" src="Assets/Images/PortalIncLogo.png" alt="we put the ALL in portal!"/>
+      <p style="font-size: 17px;">Your One-stop shop for all your interdimensional travel needs!</p>
+    </header>
+    <nav class="menubar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="safety.html"><strong>Safety</strong></a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section id="secondarycontent">
+		<h1>Contact Page</h1>
+		<p>Have a question or just want to say hello? Pop a question into this form!</p>
+		<br>
+		<form id="contactForm">
+			<fieldset id="contactinfo" style="">
+			    <legend>Basic Information</legend>
+				<label for="fnameinput">
+				     First Name: 
+					 <input type="text" id="fnameinput" name="fName" placeholder="First Name" required="required">
+				</label>
+				<br>
+				<label for="lnameinput">
+				     Last Name: 
+					 <input type="text" id="lnameinput" name="lName" placeholder="Last Name" required="required">
+				</label>
+				<br>
+				<label for="emailinput">
+				     Email: 
+					 <input type="email" id="emailinput" name="Email" placeholder="address@example.com" required="required">
+				</label>
+				<br>
+				<label for="phoneinput">
+				     Phone: 
+					 <input type="tel" id="phoneinput" name="Phone" placeholder="(XXX) XXX-XXXX" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required="required">
+				</label>
+				<br>
+				<label for="emailcheck">
+					<input type="checkbox" id="emailcheck" name="newsletter" value="Signup">
+					I would like to receive emails about future innovations at Portals Inc.
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend>Questions</legend>
+				<label for="question">
+					Questions or Concerns?<br>
+					<textarea id="question" name="feedback" rows="6" style="width: 70%;" required="required"></textarea>
+				</label>
+			</fieldset>
+			<fieldset style="clear: both;">
+			      <input type="submit" class="buttons" id="submit" value="Submit Comment">
+				  <input type="reset" class="buttons" id="reset" value="Reset">
+			</fieldset>
+		</form>
+		<br>
+    </section>
+    <footer>
+      <p>7362-f Morningwaffles Lane &bull; St. Louis, MO &bull; 72182<br>&copy; 3089 - Portals Incorporated</p>
+    </footer>
+	<script src="Assets/Javascripts/submit.js"></script>
+  </body>
+</html>
