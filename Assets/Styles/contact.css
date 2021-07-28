@@ -1,0 +1,34 @@
+/*
+	Contact Form Style Sheet for Portals Incorporated
+	
+	Author: Adedeji Coker
+	Supporting Files: none
+*/
+
+fieldset, legend {
+	border:5px solid #dbdbdb;
+	background-color: white;
+	padding: 1%;
+}
+legend, label{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+	font-size: 20px;
+	padding: 5px;
+}
+label {
+	font-size: 17px;
+}
+input, textarea {
+	border:1px solid #dbdbdb;
+}
+#contactinfo {
+	float: left;
+	width: 50%;
+}
+.buttons {
+	border: 5px solid #dbdbdb;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+}

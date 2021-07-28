@@ -1,0 +1,90 @@
+/*
+	Main Style Sheet for Portals Incorporated
+	
+	Author: Adedeji Coker
+	Supporting Files: none
+*/
+body, nav, ul, a, h1, h2, h3, h4, h5, h6, p, li, aside, th, td, fieldset, form, input, label, legend{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: black;
+  margin: 0px auto;
+	width: 800px;
+}
+a, h1, h2, h3, h4, h5, h6, p, li{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+a, p, li {
+  font-size: 24px;
+}
+nav, footer {
+  background-color: white;
+    border:5px solid #dbdbdb;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    clear: both;
+}
+nav li, footer p{
+    display:inline;
+}
+nav a, footer p{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+    display:inline-block;
+    padding:10px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#maincontent {
+  float: left;
+  text-align: center;
+  width: 65%;
+  padding-left: 0.5em;
+}
+#maincontent h1 {
+	padding: 0.5em;
+}
+#maincontent p, #maincontent li{
+	font-size: 17px;
+}
+#secondarycontent {
+  clear: both;
+  text-align: center;
+}
+#secondarycontent h2 {
+	padding: 0.5em;
+}
+#secondarycontent p, #secondarycontent li, legend, label {
+	font-size: 17px;
+}
+#maincontent li, #secondarycontent li {
+	text-decoration: none;
+    display:inline-block;
+    padding:10px;
+}
+aside {
+  width: 25%;
+  float: right;
+  background-color: #daf7a6;
+  border: 5px solid #A1FF73;
+}
+aside p, aside h2 {
+  color: black;
+}
+aside img {
+  border:5px solid #A1FF73;
+}
